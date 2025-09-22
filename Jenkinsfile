@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git branch: 'master', url: 'https://github.com/shankerasdfg-max/branch1.git'
+                git branch: 'main', url: 'https://github.com/shankerasdfg-max/branch1.git'
             }
         }
 
