@@ -14,6 +14,8 @@ pipeline {
 
         stage('Install & Test') {
             steps {
+
+                sh 'cd ravi'
                 sh 'npm install'
                 sh 'npm test'
             }
